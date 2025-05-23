@@ -272,7 +272,8 @@
         "condition": "Used",
         "price": 40000,
         "miles": 50000,
-        "description": "very good car"
+        "description": "very good car",
+        "passengers":5
 
     }
 }
