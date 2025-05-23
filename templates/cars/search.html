@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-
+{% block title %} | Search Result {% endblock %}
 {% block content %}
 
 {% load humanize %}
@@ -108,7 +108,7 @@
         <!-- Main title -->
         <div class="main-title">
             <h1>Here's your <span>Cars</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Browse through our latest car listings and find the vehicle that suits your needs and budget.</p>
         </div>
         <div class="row">
           {% for car in cars %}
