@@ -106,10 +106,7 @@ WSGI_APPLICATION = 'carweb.wsgi.application'
 #DATABASES = {'default': dj_database_url.config(default='postgres://postgres:postgres@localhost/carzone_db')}
 
 DATABASES = {
-    'default': dj_database_url.config(
-        default=os.environ.get('DATABASE_URL'),
-        conn_max_age=600
-    )
+    'default': dj_database_url.config(conn_max_age=600, ssl_require=True)
 }
 
 # Password validation
