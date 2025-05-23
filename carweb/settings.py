@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-rvh3a(t4qf-j=d9w=#l+h!a8_g)7lqmoype0jg28f-8sb%h%d)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['floating-badlands-41165.herokuapp.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -103,10 +103,8 @@ WSGI_APPLICATION = 'carweb.wsgi.application'
 #    }
 #}
 
-#DATABASES = {'default': dj_database_url.config(default='postgres://postgres:postgres@localhost/carzone_db')}
-DATABASES = {
-    'default': dj_database_url.config(conn_max_age=600)
-}
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:postgres@localhost/carzone_db')}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
