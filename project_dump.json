@@ -271,7 +271,8 @@
         "year": 2020,
         "condition": "Used",
         "price": 40000,
-        "description": ""
+        "miles": 50000,
+        "description": "very good car"
 
     }
 }
