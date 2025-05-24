@@ -180,7 +180,8 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
 
-SITE_ID = 2 if os.environ.get('HEROKU_ENV') else 1
+SITE_ID = int(os.environ.get("SITE_ID", 1))
+
 
 #SITE_ID = 2
 
