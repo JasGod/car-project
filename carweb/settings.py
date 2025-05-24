@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-rvh3a(t4qf-j=d9w=#l+h!a8_g)7lqmoype0jg28f-8sb%h%d)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['secret-journey-08271-bc01b5bc2f46.herokuapp.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','secret-journey-08271-bc01b5bc2f46.herokuapp.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -178,35 +178,3 @@ EMAIL_USE_TLS = True
 
 # whitenoise local_settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
-
-SOCIALACCOUNT_PROVIDERS = {
-    'facebook': {
-        'METHOD': 'oauth2',
-        'SDK_URL': '//connect.facebook.net/{locale}/sdk.js',
-        'SCOPE': ['email'],
-        'AUTH_PARAMS': {'auth_type': 'reauthenticate'},
-        'INIT_PARAMS': {'cookie': True},
-        'FIELDS': [
-            'id',
-            'email',
-            'name',
-            'first_name',
-            'last_name',
-            'verified',
-            'locale',
-            'timezone',
-            'link',
-            'gender',
-            'updated_time'
-        ],
-        'EXCHANGE_TOKEN': True,
-        'LOCALE_FUNC': lambda request: 'en_US',
-        'VERIFIED_EMAIL': False,
-        'VERSION': 'v17.0',  # À adapter selon la version choisie dans Facebook Dev
-    },
-    'google': {
-        'SCOPE': ['profile', 'email'],
-        'AUTH_PARAMS': {'access_type': 'online'},
-    }
-}
