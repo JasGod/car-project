@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-rvh3a(t4qf-j=d9w=#l+h!a8_g)7lqmoype0jg28f-8sb%h%d)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['secret-journey-08271-bc01b5bc2f46.herokuapp.com']
 
