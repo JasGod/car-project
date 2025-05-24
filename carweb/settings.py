@@ -196,8 +196,7 @@ EMAIL_USE_TLS = True
 # whitenoise local_settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-LOGIN_REDIRECT_URL = '/'
-ACCOUNT_LOGOUT_REDIRECT_URL = '/'
+
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'SCOPE': [
