@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-rvh3a(t4qf-j=d9w=#l+h!a8_g)7lqmoype0jg28f-8sb%h%d)'
+SECRET_KEY = '(django-insecure-rvh3a(t4qf-j=d9w=#l+h!a8_g)7lqmoype0jg28f-8sb%h%d)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -195,3 +195,17 @@ EMAIL_USE_TLS = True
 
 # whitenoise local_settings
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+LOGIN_REDIRECT_URL = '/'
+ACCOUNT_LOGOUT_REDIRECT_URL = '/'
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'SCOPE': [
+            'profile',
+            'email',
+        ],
+        'AUTH_PARAMS': {
+            'access_type': 'online',
+        },
+    }
+}
