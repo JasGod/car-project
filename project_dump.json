@@ -271,9 +271,26 @@
         "year": 2020,
         "condition": "Used",
         "price": 40000,
-        "miles": 50000,
-        "description": "very good car",
-        "passengers":5
+        "description": "<p>The&nbsp;<strong>Toyota 4Runner</strong>&nbsp;is an&nbsp;<a href='https://en.wikipedia.org/wiki/SUV' title='SUV'>SUV</a>&nbsp;manufactured by the Japanese automaker&nbsp;<a href='https://en.wikipedia.org/wiki/Toyota' title='Toyota'>Toyota</a>&nbsp;and marketed globally since 1984, across six generations. In Japan, it was marketed as the&nbsp;<strong>Toyota Hilux Surf</strong>&nbsp;(<a href='https://en.wikipedia.org/wiki/Japanese_language' title='Japanese language'>Japanese</a>:&nbsp;トヨタ・ハイラックスサーフ,&nbsp;<a href='https://en.wikipedia.org/wiki/Hepburn_romanization' title='Hepburn romanization'>Hepburn</a>:&nbsp;<em>Toyota Hairakkususāfu</em>)&nbsp;and was withdrawn from the market in 2009. The original 4Runner was a&nbsp;<a href='https://en.wikipedia.org/wiki/Compact_SUV' title='Compact SUV'>compact SUV</a>&nbsp;and little more than a Toyota&nbsp;<a href='https://en.wikipedia.org/wiki/Toyota_Hilux' title='Toyota Hilux'>Hilux</a>&nbsp;pickup truck with a fiberglass shell over the bed, but the model has since undergone significant independent development into a cross between a compact and a mid-size SUV. All 4Runners have been built in Japan at Toyota&#39;s&nbsp;<a href='https://en.wikipedia.org/wiki/Tahara_plant' title='Tahara plant'>plant</a>&nbsp;in&nbsp;<a href='https://en.wikipedia.org/wiki/Tahara,_Aichi' title='Tahara, Aichi'>Tahara, Aichi</a>, or at the&nbsp;<a href='https://en.wikipedia.org/wiki/Hino_Motors' title='Hino Motors'>Hino Motors</a>&nbsp;(a Toyota subsidiary) plant in&nbsp;<a href='https://en.wikipedia.org/wiki/Hamura' title='Hamura'>Hamura</a>.</p>",
+        "car_photo": "photos/2025/05/22/1893633875.jpg",
+        "car_photo_1": "photos/2025/05/22/1893633879.jpg",
+        "car_photo_2": "photos/2025/05/22/1893633884.jpg",
+        "car_photo_3": "photos/2025/05/22/1896836883.jpg",
+        "car_photo_4": "photos/2025/05/22/1896836887.jpg",
+        "features": "Cruise Control,Audio Interface,Seat Heating,Alarm System,Reversing Camera,Direct Fuel Injection,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.7L Mid-Engine V5",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles":5,
+        "doors": "5",
+        "passengers": 4,
+        "vin_no": "WP0AB2E81FTH1478",
+        "milage": 8,
+        "fuel_type": "Diesel",
+        "no_of_owners": "2",
+        "is_featured": false,
+        "created_date": "2025-05-22T15:06:49Z"
 
     }
 }
